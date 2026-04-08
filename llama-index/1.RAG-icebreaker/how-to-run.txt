@@ -1,0 +1,23 @@
+// checkout terminal to llama-index
+
+// 1. Create a venv and install packages
+python3.11 -m venv venv
+source venv/bin/activate # activate venv
+pip install -r requirements.txt
+
+// 2. Another WAY: Create conda environment and install packages
+install packages in that conda environment
+And run application
+
+create conda environment --> conda create -n llama_index_icebreaker python=3.11 -y
+activate conda environment --> conda activate llama_index_icebreaker
+list all conda environments --> conda env list
+install packages from requirements.txt --> /home/tk-lpt-648/miniconda3/envs/llama_index_icebreaker/bin/python3.11 -m pip install -r requirements.txt
+checkout terminal to llama-index directory --> cd coursera/llama-index/RAG-icebreaker
+run python file --> /home/tk-lpt-648/miniconda3/envs/langchain_prompting/bin/python3.11 <path_to_python_file>
+
+// 3. Run application
+In icebreaker folder, we can run 
+                                main.py for terminal application
+                                app.py for gradio application
+
