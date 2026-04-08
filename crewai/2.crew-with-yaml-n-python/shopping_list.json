@@ -1,0 +1,108 @@
+{
+  "total_budget": "$25",
+  "meal_plans": [
+    {
+      "meal_name": "Chicken Stir Fry",
+      "difficulty_level": "Easy",
+      "servings": 4,
+      "researched_ingredients": [
+        "1 lb boneless, skinless chicken breast, sliced into thin strips",
+        "2 cups mixed vegetables (e.g., bell peppers, broccoli, snap peas)",
+        "2 tablespoons vegetable oil",
+        "3 cloves garlic, minced",
+        "1 tablespoon fresh ginger, minced",
+        "1/4 cup soy sauce (low sodium recommended)",
+        "1 tablespoon cornstarch",
+        "1 tablespoon water",
+        "Salt and pepper to taste",
+        "Cooked rice or noodles for serving"
+      ]
+    }
+  ],
+  "shopping_sections": [
+    {
+      "section_name": "Meat",
+      "items": [
+        {
+          "name": "Boneless, skinless chicken breast",
+          "quantity": "1 lb",
+          "estimated_price": "$6-8",
+          "category": "Meat"
+        }
+      ],
+      "estimated_total": "$7"
+    },
+    {
+      "section_name": "Produce",
+      "items": [
+        {
+          "name": "Mixed vegetables",
+          "quantity": "2 cups",
+          "estimated_price": "$2-3",
+          "category": "Produce"
+        },
+        {
+          "name": "Garlic",
+          "quantity": "3 cloves",
+          "estimated_price": "$0.50-1",
+          "category": "Produce"
+        },
+        {
+          "name": "Fresh ginger",
+          "quantity": "1 tablespoon",
+          "estimated_price": "$0.50-1",
+          "category": "Produce"
+        }
+      ],
+      "estimated_total": "$5"
+    },
+    {
+      "section_name": "Condiments",
+      "items": [
+        {
+          "name": "Soy sauce (low sodium)",
+          "quantity": "1/4 cup",
+          "estimated_price": "$2-3",
+          "category": "Condiments"
+        },
+        {
+          "name": "Cornstarch",
+          "quantity": "1 tablespoon",
+          "estimated_price": "$1-2",
+          "category": "Condiments"
+        }
+      ],
+      "estimated_total": "$4"
+    },
+    {
+      "section_name": "Oils",
+      "items": [
+        {
+          "name": "Vegetable oil",
+          "quantity": "2 tablespoons",
+          "estimated_price": "$1-2",
+          "category": "Oils"
+        }
+      ],
+      "estimated_total": "$2"
+    },
+    {
+      "section_name": "Grains",
+      "items": [
+        {
+          "name": "Cooked rice or noodles",
+          "quantity": "to serve 4",
+          "estimated_price": "$3-5",
+          "category": "Grains"
+        }
+      ],
+      "estimated_total": "$4"
+    }
+  ],
+  "shopping_tips": [
+    "Compare prices between brands for best deals",
+    "Buy in bulk for items you use frequently",
+    "Check if there are discounts on fresh produce or meat",
+    "Consider store loyalty programs for additional savings"
+  ]
+}

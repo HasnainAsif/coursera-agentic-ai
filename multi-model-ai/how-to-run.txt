@@ -1,0 +1,8 @@
+create conda environment --> conda create -n multi_model_ai python=3.11 -y
+activate conda environment --> conda activate multi_model_ai
+list all conda environments --> conda env list
+
+checkout terminal to current directory --> cd coursera/multi-model-ai
+install packages from requirements.txt --> /home/tk-lpt-648/miniconda3/envs/multi_model_ai/bin/python3.11 -m pip install -r requirements.txt
+
+run any .py or .ipynb file

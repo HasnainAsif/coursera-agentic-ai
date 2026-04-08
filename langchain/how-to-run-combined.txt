@@ -1,0 +1,6 @@
+create conda environment --> conda create -n langchain_prompting python=3.11 -y
+activate conda environment --> conda activate langchain_prompting
+list all conda environments --> conda env list
+checkout terminal to current directory --> cd coursera/langchain
+install packages from requirements.txt --> /home/tk-lpt-648/miniconda3/envs/langchain_prompting/bin/python3.11 -m pip install -r requirements.txt
+run main.py --> Select kernal (langchain_prompting) in notebook and run cells

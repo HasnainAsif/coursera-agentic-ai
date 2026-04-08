@@ -1,0 +1,13 @@
+Deactivate current uv environment:
+    deactivate
+
+Install CrewAI
+    uv tool install crewai
+
+Create a new CrewAI project
+    crewai create crew my_project # create a crew
+    crewai create flow my_project # create a flow
+
+Run CrewAI project (while terminal is inside crew project)
+    crewai run
+

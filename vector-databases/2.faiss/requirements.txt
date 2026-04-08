@@ -1,0 +1,14 @@
+# Core utilities
+youtube-transcript-api==1.2.4
+faiss-cpu==1.8.0
+
+# LangChain (OpenAI compatible)
+langchain==0.2.6
+langchain-community==0.2.6
+langchain-openai==0.1.8
+
+# UI
+gradio==6.3.0
+
+# HF Hub
+huggingface_hub==1.3.5

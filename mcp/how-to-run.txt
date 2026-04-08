@@ -1,0 +1,7 @@
+create conda environment --> conda create -n mcp_env python=3.11 -y
+activate conda environment --> conda activate mcp_env
+list all conda environments --> conda env list
+checkout terminal to current directory --> cd coursera/mcp
+install packages from requirements.txt --> /home/tk-lpt-648/miniconda3/envs/mcp_env/bin/python3.11 -m pip install -r requirements.txt
+run main.ipynb --> Select kernal (mcp_env) in notebook and run cells
+run main.py --> /home/tk-lpt-648/miniconda3/envs/mcp_env/bin/python3.11 <file_path>

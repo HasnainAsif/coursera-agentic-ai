@@ -1,0 +1,42 @@
+# =========================
+# Core LlamaIndex
+# =========================
+llama-index-core==0.11.8
+llama-index==0.11.8
+
+# =========================
+# OpenAI integrations
+# =========================
+llama-index-llms-openai==0.2.8
+llama-index-embeddings-openai==0.2.5
+openai==1.109.1
+
+# =========================
+# Readers / Loaders
+# =========================
+llama-index-readers-web==0.2.2
+llama-hub==0.0.79.post1
+requests==2.32.2
+
+# =========================
+# Validation / Models
+# =========================
+pydantic==2.10.6
+
+# =========================
+# UI
+# =========================
+gradio==6.3.0
+# gradio_client==2.0.3
+
+# =========================
+# Utils
+# =========================
+python-dotenv==1.0.1
+
+# =========================
+# BM25 Retriever
+# =========================
+llama-index-retrievers-bm25
+rank-bm25
+PyStemmer
