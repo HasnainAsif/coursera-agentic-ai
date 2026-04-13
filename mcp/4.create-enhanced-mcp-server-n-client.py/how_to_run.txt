@@ -1,0 +1,5 @@
+checkout terminal to current directory --> cd 4.create-enhanced-mcp-server-n-client.py
+run client.py for starting application 
+    --> /home/tk-lpt-648/miniconda3/envs/mcp_env/bin/python3.11 client.py server.py
+run run.ipynb for step-by-step application running
+    --> select kernel (mcp_env)

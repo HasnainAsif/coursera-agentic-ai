@@ -1,0 +1,5 @@
+mcp==1.15.0
+fastmcp==2.12.4
+# anthropic==0.69.0 # for using anthropic api_key
+openai==1.109.1
+python-dotenv==1.1.1
