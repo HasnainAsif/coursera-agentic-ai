@@ -1,0 +1,19 @@
+------------------------ CONDA SETUP ---------------------------------
+create conda environment --> conda create -n litellm_env python=3.11 -y
+activate conda environment --> conda activate env
+list all conda environments --> conda env list
+install packages from requirements.txt --> /home/tk-lpt-648/miniconda3/envs/litellm_env/bin/python3.11 -m pip install -r requirements.txt
+run main.py --> /home/tk-lpt-648/miniconda3/envs/env/bin/python3.11 main.py
+run main.ipynb --> Select kernal (env) in notebook and run cells
+
+------------------------ UV Setup ------------------------------------
+checkout terminal to current directory --> cd litellm
+create virtual environment --> uv venv
+Activate environment (bash) --> source .venv/Scripts/activate
+Activate environment (PowerShell) --> .venv\Scripts\activate
+install packages from requirements.txt --> uv pip install -r requirements.txt
+install ipykernel for notbook --> uv pip install ipykernel
+register venv as named jupyter kernel --> uv run python -m ipykernel install --user --name litellm --display-name "litellm"
+Check installed packages versions --> uv pip freeze | grep litellm
+run main.py --> uv run main.py
+run main.ipynb --> Select kernal (litellm) in notebook and run cells
